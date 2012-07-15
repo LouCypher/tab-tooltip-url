@@ -1,2 +1,2 @@
 content   tabtooltipurl   ./
-overlay   chrome://browser/content/browser.xul  chrome://tabtooltipurl/content/tabbrowser-tab-tooltip.xul
+overlay   chrome://browser/content/browser.xul  chrome://tabtooltipurl/content/browserOverlay.xul

@@ -4,6 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>TabTooltipURL@loucypher</em:id>
     <em:type>2</em:type>
+    <!-- Unpack if you're testing it -->
     <!--em:unpack>true</em:unpack-->
     <em:name>URL in Tab Tooltip</em:name>
     <em:version>0.1a2012050701</em:version>
