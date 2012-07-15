@@ -15,6 +15,7 @@
       aEvent.stopPropagation();
       var tab = ("triggerNode" in aEvent.target) ? aEvent.target.triggerNode
                                                  : document.tooltipNode;
+      //Application.console.log(tab.localName); // debug
       if (tab.localName != "tab") {
         aEvent.preventDefault();
         return;
@@ -32,11 +33,13 @@
       var hideURL = /^about:(blank|newtab|privatebrowsing|sessionrestore)/;
 
       title.className = tab.hasAttribute("busy") || hideURL.test(tabURL) ||
-                        (title.textContent == tabURL)
+                        (title.textContent == tabURL) ||
+                        tab.mOverCloseButton
                         ? "tooltip-label not-bold"
                         : "tooltip-label";
 
-      url.hidden = (hideURL.test(tabURL) || (title.textContent == tabURL)) &&
+      url.hidden = (hideURL.test(tabURL) || (title.textContent == tabURL) ||
+                    tab.mOverCloseButton) &&
                    (document.getElementById("urlbar") ||
                     document.getElementById("main-window")
                             .hasAttribute("disablechrome"));
