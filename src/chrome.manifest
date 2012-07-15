@@ -1,2 +1,3 @@
-content   tabtooltipurl   ./
+content   tabtooltipurl                 ./
+skin      tabtooltipurl   classic/1.0   ./
 overlay   chrome://browser/content/browser.xul  chrome://tabtooltipurl/content/browserOverlay.xul

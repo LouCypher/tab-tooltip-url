@@ -4,18 +4,18 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>TabTooltipURL@loucypher</em:id>
     <em:type>2</em:type>
-    <!-- Unpack if you're testing it -->
     <!--em:unpack>true</em:unpack-->
     <em:name>URL in Tab Tooltip</em:name>
-    <em:version>0.1a2012050701</em:version>
-    <em:description>Display tab URL in tab tooltip for inactive tabs.</em:description>
+    <!--em:name>Snakes on a Plane</em:name-->
+    <em:version>0.1</em:version>
+    <em:description>Display tab URL in tab tooltip.</em:description>
     <em:creator>LouCypher</em:creator>
-    <em:homepageURL>http://loucypher.googlecode.com/</em:homepageURL>
+    <em:homepageURL>https://github.com/LouCypher/tab-tooltip-url</em:homepageURL>
     <em:targetApplication>
       <Description><!--Firefox-->
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>9.0</em:minVersion>
-        <em:maxVersion>14.0a2</em:maxVersion>
+        <em:maxVersion>15.0a2</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

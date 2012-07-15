@@ -5,6 +5,8 @@
     file, You can obtain one at http://mozilla.org/MPL/2.0/.
 -->
 
+<?xml-stylesheet href="../skin/"?>
+
 <overlay id="tab-tooltip-overlay"
       xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
@@ -18,19 +20,26 @@
         return;
       }
 
-      var tooltipTitle = document.getElementById("tabTooltipTitleText");
-      tooltipTitle.textContent = tab.mOverCloseButton
-                                  ? tab.getAttribute("closetabtext")
-                                  : tab.getAttribute("label");
+      var title = document.getElementById("tabTooltipTitleText");
+      var url = document.getElementById("tabTooltipUrlText");
+      var tabURL = tab.linkedBrowser.currentURI.spec;
 
-      var tooltipUrl = document.getElementById("tabTooltipUrlText");
-      tooltipUrl.value = tab.linkedBrowser.currentURI.spec;
-      tooltipUrl.hidden = (tab.selected ||
-                           (tooltipUrl.value == "about:blank") ||
-                           (tooltipTitle.textContent == tooltipUrl.value)) &&
-                          (document.getElementById("urlbar") ||
-                           document.getElementById("main-window")
-                                   .hasAttribute("disablechrome"));
+      url.value = tabURL;
+      title.textContent = tab.mOverCloseButton
+                          ? tab.getAttribute("closetabtext")
+                          : tab.getAttribute("label");
+
+      var hideURL = /^about:(blank|newtab|privatebrowsing|sessionrestore)/;
+
+      title.className = tab.hasAttribute("busy") || hideURL.test(tabURL) ||
+                        (title.textContent == tabURL)
+                        ? "tooltip-label not-bold"
+                        : "tooltip-label";
+
+      url.hidden = (hideURL.test(tabURL) || (title.textContent == tabURL)) &&
+                   (document.getElementById("urlbar") ||
+                    document.getElementById("main-window")
+                            .hasAttribute("disablechrome"));
     }
   ]]></script>
 
