@@ -2,8 +2,8 @@
 
 Display tab URL in tab tooltip.
 
-[![With this extension installed](https://lh3.googleusercontent.com/-34jzqjytjCk/UAJzL4TBS4I/AAAAAAAACwA/VzxtA4ttyQ8/s200/tab-tooltip-url.png)](https://lh3.googleusercontent.com/-34jzqjytjCk/UAJzL4TBS4I/AAAAAAAACwA/VzxtA4ttyQ8/s640/tab-tooltip-url.png "With this extension installed")
-[![Without this extension](https://lh6.googleusercontent.com/-gSC8UkpuXWk/UAJzOQ9qQwI/AAAAAAAACwA/qEyxI9rnXJo/s200/tab-tooltip.png)](https://lh6.googleusercontent.com/-gSC8UkpuXWk/UAJzOQ9qQwI/AAAAAAAACwA/qEyxI9rnXJo/s640/tab-tooltip.png "Without this extension")
+[![With this extension installed](https://lh3.googleusercontent.com/-PrwIQXi5Sbk/UAOrny7wD5I/AAAAAAAACwk/3qXmkiTZpis/s200/tab-tooltip-url.png)](https://lh3.googleusercontent.com/-PrwIQXi5Sbk/UAOrny7wD5I/AAAAAAAACwk/3qXmkiTZpis/s640/tab-tooltip-url.png "With this extension installed")
+[![Without this extension](https://lh5.googleusercontent.com/-SvTRt7tKzrw/UAOrngHTlTI/AAAAAAAACwk/5uytIEXukzw/s200/tab-tooltip.png)](https://lh5.googleusercontent.com/-SvTRt7tKzrw/UAOrngHTlTI/AAAAAAAACwk/5uytIEXukzw/s640/tab-tooltip.png "Without this extension")
 
 ## Compatibility
 
