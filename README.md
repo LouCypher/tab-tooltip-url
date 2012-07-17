@@ -12,11 +12,11 @@ Display tab URL in tab tooltip.
 ## Installation
 
 * [Latest release](https://addons.mozilla.org/addon/tab-tooltip/?src=external-home)
-* [Latest builds](tab-tooltip-url/downloads)
+* [Latest builds](https://github.com/LouCypher/tab-tooltip-url/downloads)
 
 ## Supports
 
 * [Forum](https://forums.mozilla.org/addons/viewtopic.php?t=9859)
-* [Bug reports or feature requests](tab-tooltip-url/issues)
+* [Bug reports or feature requests](https://github.com/LouCypher/tab-tooltip-url/issues)
 
 [![Flattr this!](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?url=https%3A%2F%2Fgithub.com%2FLouCypher%2Ftab-tooltip-url "Flattr this!")
